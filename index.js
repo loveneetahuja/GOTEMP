@@ -4,12 +4,11 @@ const app = express();
 
 if (process.env.NODE_ENV == "production") {
 	//Express will serve up production assets
-	app.use(express.static("client/build"));
+	app.use(express.static("public"));
 
-	//Express will serve up the index.html
 	const path = require("path");
 	app.get("*", (req, res) => {
-		res.sendFile(path.resolve(__dirname, "index.html"));
+		res.sendFile(path.resolve(__dirname, "public", "index.html"));
 	});
 
 	const PORT = process.env.PORT || 5000;
