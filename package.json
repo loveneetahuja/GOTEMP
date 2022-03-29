@@ -1,15 +1,19 @@
 {
-  "name": "glitch-over-temp",
-  "version": "1.0.0",
-  "description": "Coming Soon Website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Loveneet Ahuja",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.3",
-    "path": "^0.12.7"
-  }
+	"name": "glitch-over-temp",
+	"version": "1.0.0",
+	"description": "Coming Soon Website",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Loveneet Ahuja",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.3",
+		"path": "^0.12.7"
+	},
+	"engines": {
+		"node": "12.x"
+	}
 }
