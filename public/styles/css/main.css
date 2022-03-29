@@ -1,0 +1,58 @@
+.heading {
+	font-family: "Chakra Petch", sans-serif;
+}
+.myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+.myPhoneVideo {
+	display: none;
+}
+.content {
+	position: fixed;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+}
+
+.connect {
+	font-family: "Bai Jamjuree", sans-serif;
+}
+
+.connect-link {
+	color: white !important;
+}
+@media screen and (max-width: 600px) {
+	/* Styles */
+	.myVideo {
+		display: none;
+	}
+
+	.myPhoneVideo {
+		display: block;
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 71%;
+	}
+	.heading {
+		font-size: large;
+	}
+	.connect {
+		font-size: medium;
+	}
+
+	body {
+		background-color: black;
+	}
+	.content {
+		padding: 0;
+	}
+}
